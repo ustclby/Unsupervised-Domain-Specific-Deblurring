@@ -6,9 +6,9 @@ Pytorch implementation of the paper [Unsupervised Domain-Specific Deblurring via
 
 ## Usage
 
-**Train**
+*Train*
 
-**Test**
+*Test*
 
 ## Dataset
 
