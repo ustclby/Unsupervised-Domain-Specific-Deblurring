@@ -15,23 +15,23 @@ Pytorch implementation of the paper [Unsupervised Domain-Specific Deblurring via
 
 ### Train
 
-To train the model, run the following command line in the source code directory:
+To train the model, run the following command line in the source code directory. You may set other parameters based on your experiment setting.
 
 ```bash
-python train.py --dataroot ../datasets/DatasetName/ --name job_name --batch_size 4 --lambdaB 0.01 --lr 0.0002
+python train.py --dataroot ../datasets/DatasetName/ --name job_name --batch_size 2 --lambdaB 0.1 --lr 0.0002
 ```
 
 ### Test
-Our trained model for face and text can be downloaded [here](). To test the model, run the following command line in the source code directory:
+Our pre-trained model for face and text can be downloaded [here](). To test the model, run the following command line in the source code directory. You may choose the perceptual loss type, which is used for evaluating the perceptual distance between deblurred images and original ones. VGG_face pretrained model can be found [here]().
 
 
 ```bash
-python test.py --dataroot ../datasets/CelebA/test_blur/ --num 1 --resume ../results/model/locations --name job_name
+python test.py --dataroot ../datasets/dataset_name/test_blur/ --num 1 --resume ../results/model/locations --name job_name --orig_dir ../datasets/dataset_name/test_orig --percep face
 ```
 
 ## Citation
 
-If you find our code helpful in your research or work please cite our paper.
+If you find the code helpful in your research or work, please kindly cite our paper.
 
 ```
 @inproceedings{lu2019unsupervised,
@@ -42,4 +42,6 @@ If you find our code helpful in your research or work please cite our paper.
   year={2019}
 }
 ```
+## Acknowledgments
 
+The code borrows heavily from [DRIT](). 
