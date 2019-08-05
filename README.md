@@ -2,9 +2,11 @@
 
 Pytorch implementation of the paper [Unsupervised Domain-Specific Deblurring via Disentangled Representations](https://arxiv.org/pdf/1903.01594.pdf). The proposed method is unsupervised and takes blurred domain-specific image (faces or text) as an input and procude the corresponding sharp estimate.
 
+contact: bylu@umiacs.umd.edu
+
 ## Sample Results
 
-TO BE ADDED
+TO BE ADDED...
 
 ## Dataset
 
