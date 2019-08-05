@@ -47,4 +47,4 @@ If you find the code helpful in your research or work, please kindly cite our pa
 ```
 ## Acknowledgments
 
-The code borrows heavily from [DRIT](https://github.com/HsinYingLee/DRIT). 
+The code borrows heavily from [DRIT](https://github.com/HsinYingLee/DRIT). We use the image blurring method in [DeblurGAN](https://github.com/KupynOrest/DeblurGAN/tree/master/motion_blur).
