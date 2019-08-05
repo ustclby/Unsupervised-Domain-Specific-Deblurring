@@ -22,7 +22,7 @@ python train.py --dataroot ../datasets/DatasetName/ --name job_name --batch_size
 ```
 
 ### Test
-Our pre-trained model for face and text can be downloaded [here](). To test the model, run the following command line in the source code directory. You may choose the perceptual loss type, which is used for evaluating the perceptual distance between deblurred images and original ones. VGG_face pretrained model can be found [here]().
+Our pre-trained model for face and text can be downloaded [here](https://drive.google.com/drive/folders/1P0mP8JjfdV55tDK7a3fIU4yghVmaUJyF?usp=sharing). To test the model, run the following command line in the source code directory. You may set other parameters based on your experiment setting. To choose the perceptual loss type as face, you need to manually set the VGG face model path in network.py. VGG_face pretrained model can be found [here](https://drive.google.com/drive/folders/1P0mP8JjfdV55tDK7a3fIU4yghVmaUJyF?usp=sharing).
 
 
 ```bash
