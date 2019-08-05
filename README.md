@@ -22,7 +22,7 @@ python train.py --dataroot ../datasets/DatasetName/ --name job_name --batch_size
 ```
 
 ### Test
-Our pre-trained model for face and text can be downloaded [here](https://drive.google.com/drive/folders/1P0mP8JjfdV55tDK7a3fIU4yghVmaUJyF?usp=sharing). To test the model, run the following command line in the source code directory. You may set other parameters based on your experiment setting. To choose the perceptual loss type as face, you need to manually set the VGG face model path in network.py. VGG_face pretrained model can be found [here](https://drive.google.com/drive/folders/1P0mP8JjfdV55tDK7a3fIU4yghVmaUJyF?usp=sharing).
+Our pre-trained model for face and text can be downloaded [here](https://drive.google.com/drive/folders/1P0mP8JjfdV55tDK7a3fIU4yghVmaUJyF?usp=sharing). To test the model, run the following command line in the source code directory. You may set other parameters based on your experiment setting. To choose the perceptual loss type as face, you need to manually set the VGG face model path in `network.py`. VGG_face pretrained model can be found [here](https://drive.google.com/drive/folders/1P0mP8JjfdV55tDK7a3fIU4yghVmaUJyF?usp=sharing).
 
 
 ```bash
@@ -44,4 +44,4 @@ If you find the code helpful in your research or work, please kindly cite our pa
 ```
 ## Acknowledgments
 
-The code borrows heavily from [DRIT](). 
+The code borrows heavily from [DRIT](https://github.com/HsinYingLee/DRIT). 
