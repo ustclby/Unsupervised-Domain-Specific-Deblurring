@@ -4,14 +4,17 @@ Pytorch implementation of the paper [Unsupervised Domain-Specific Deblurring via
 
 ## Sample Results
 
+TO BE ADDED
 
 ## Dataset
+
+To train the model, unpaired sharp and blurred images folders should be named in the following format: `datasets/name/trainA` and `datasets/name/trainB`. Test images can be stored in the same folder and you may choose your own folder name.
 
 ## Usage
 
 ### Data Preperation
 
-
+In our experiment, face data is from [CelebA dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) and text data is from [BMVC text dataset](http://www.fit.vutbr.cz/~ihradis/CNN-Deblur/). To manually blur the images, we use the method proposed in [DeblurGAN](https://github.com/KupynOrest/DeblurGAN/tree/master/motion_blur). The dataset are randomly split into three subsets: trainA (sharp), trainB(blur) and test set.
 
 ### Train
 
